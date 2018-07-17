@@ -1,0 +1,164 @@
+@media only screen and (max-width: 991px) and (min-width: 400px) { 
+    .navitem1 {
+        position: absolute;
+        right: 20px;
+        top: 50px;
+    }
+    
+    .navitem2 {
+        position: absolute;
+        right: 20px;
+        top: 80px;
+    }
+    
+    .navitem3 {
+        position: absolute;
+        right: 20px;
+        top: 110px;
+    }
+}
+
+@media only screen and (max-width: 960px) { 
+    #myCanvas {
+        height: 400px;
+    }  
+
+    .footer {
+        margin-top: 100%;
+    }
+}
+
+@media only screen and (max-width: 875px) { 
+    .card {
+        margin-left: 2%;
+        margin-top: 220px;
+    }
+    
+    .card-body {
+        height: 175px;
+    }
+    
+    .iconimages {
+        height: 75px;
+        width: 75px;
+    
+    }
+    
+    .cardicons {
+        position: absolute;
+        bottom: 12px;
+        left: 40px;
+        width: 100%;
+    }
+    
+    .iconRow {
+        margin-left: 0px;
+    } 
+}
+
+@media only screen and (max-width: 850px) { 
+    #topStuff {
+        position: absolute;
+        left: 20%;
+    }  
+}
+
+@media only screen and (max-width: 700px) { 
+    .card {
+        margin-left: 2%;
+        margin-top: 270px;
+    }
+    
+    .card-body {
+        height: 150px;
+    }
+    
+    .iconimages {
+        height: 65px;
+        width: 65px;
+    
+    }
+    
+    .cardicons {
+        position: absolute;
+        bottom: 12px;
+        left: 30px;
+        width: 100%;
+    }
+    
+    .iconRow {
+        margin-left: 0px;
+    } 
+}
+
+
+@media only screen and (max-width: 700px) { 
+    .card {
+        margin-left: 2%;
+        margin-top: 300px;
+    }
+    
+    .card-body {
+        height: 125px;
+    }
+    
+    .iconimages {
+        height: 50px;
+        width: 50px;
+    
+    }
+    
+    .cardicons {
+        position: absolute;
+        bottom: 12px;
+        left: 20px;
+        width: 100%;
+    }
+    
+    .iconRow {
+        margin-left: 0px;
+    } 
+}
+
+@media only screen and (max-width: 650px) { 
+    .theThree {
+        margin-top: 30px;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 600px) { 
+    #topStuff {
+        position: absolute;
+        left: 8%;
+    }
+}
+
+@media only screen and (max-width: 575px) { 
+    .card {
+        margin-left: 2%;
+        margin-top: 1020px;
+    }
+    .footer {
+        margin-top: 280%;
+    }
+
+    .carousel-inner {
+        height: 2000px;
+    }
+
+    .bottomInfo {
+        margin-bottom: 10px;
+    }
+ 
+}
+
+
+@media only screen and (max-width: 460px) { 
+    #topStuff {
+        position: absolute;
+        left: 5%;
+    }
+}

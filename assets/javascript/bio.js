@@ -1,6 +1,6 @@
-// just a button with this id
+// click handlers for nav bar items to take us to the next carousel
 $(".portfolio").on("click", function(event) {
-console.log("stuff")
+    console.log("stuff")
     $(".carousel").carousel(1);
     
 });
@@ -19,7 +19,7 @@ $('.index').click(function() {
     
 });
 
-
+//prevent carousel front auto sliding
 $('.carousel').carousel({
     interval: false
 });

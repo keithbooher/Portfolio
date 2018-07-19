@@ -22,8 +22,14 @@ var minRadius = 2;
 window.addEventListener('mousemove', function(event) {
     mouse.x = event.x;
     mouse.y = event.y;
+    console.log(`Height: ${canvas.height}
+    Width: ${canvas.width}`)
 })
 
+window.addEventListener('resize', function(event){
+    canvasHeight = canvas.height;
+    canvasWidth = canvas.width
+})
 
 function Circle(xCoord,yCoord,radius) {
 
@@ -33,7 +39,9 @@ function Circle(xCoord,yCoord,radius) {
     this.radius = radius
 
     this.update = function(){
+        //the current circles y position 
         this.y += -dy
+        //if the current circle makes it to the top, we put it back at the bottom
         if(this.y < 0){
             this.y = 420
         }
@@ -49,6 +57,7 @@ function Circle(xCoord,yCoord,radius) {
 
         this.draw()
     }
+    //drawing circle
     this.draw = function() {
         c.beginPath()
         c.arc(
@@ -82,7 +91,8 @@ for (var index = 0; index < 100; index++) {
 //canvas native functions to make it animate
 function animate(){
 
-    c.clearRect(0, 0, innerWidth, innerHeight)
+    //clear canvas
+    c.clearRect(0, 0, canvasWidth, canvasHeight)
     // console.log('action')
 
     //animate function is now using all 100 circles that were made, and then 

@@ -19,6 +19,7 @@ var mouse = {
 var maxRadius = 30;
 var minRadius = 2;
 
+//mouse tracker
 window.addEventListener('mousemove', function(event) {
     mouse.x = event.x;
     mouse.y = event.y;
@@ -26,6 +27,7 @@ window.addEventListener('mousemove', function(event) {
     Width: ${canvas.width}`)
 })
 
+//make sure that canvas resizes
 window.addEventListener('resize', function(event){
     canvasHeight = canvas.height;
     canvasWidth = canvas.width

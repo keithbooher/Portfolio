@@ -1,4 +1,9 @@
+@media only screen and (max-width: 1700px) { 
+    .card1 {
+        margin-left: 50%;
+    }
 
+}
 
 @media only screen and (max-width: 1600px) { 
     .card1 {

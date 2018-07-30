@@ -1,9 +1,4 @@
-@media only screen and (max-width: 1600px) { 
-    .card2 {
-        margin-left: 30%;
-    }
 
-}
 
 @media only screen and (max-width: 1500px) { 
     .card2 {
@@ -20,18 +15,16 @@
 }
 
 
-@media only screen and (max-width: 1400px) { 
+/* @media only screen and (max-width: 1400px) { 
     .card2 {
-        /* margin-left: 40%; */
     }
 
-}
+} */
 
 @media only screen and (max-width: 1300px) { 
 
     .card2 {
         margin-top: 200px;
-        /* margin-left: 30%;         */
     }
 }
 
@@ -203,7 +196,7 @@
     }
 
     .footer2 {
-        margin-top: 500%;
+        margin-top: 400%;
     }
 
     #triviaGame {
@@ -230,6 +223,7 @@
     .linkedinicon2 {
         margin-top: -240px;
     }
+
 }
 
 @media only screen and (max-width: 745px) { 
@@ -293,9 +287,9 @@
         margin-top: -10px;
     }
 
-    .footer2 {
+    /* .footer2 {
         margin-top: 600%;
-    }
+    } */
 }
 
 @media only screen and (max-width: 675px) { 
@@ -310,7 +304,7 @@
     }
 
     .footer2 {
-        margin-top: 650%;
+        margin-top: 450%;
 
     }
 }
@@ -338,9 +332,9 @@
         margin-top: -20px;
     }
 
-    .footer2 {
+    /* .footer2 {
         margin-top: 700%;
-    }
+    } */
 }
 
 @media only screen and (max-width: 595px) { 
@@ -356,7 +350,7 @@
         width: 400px;
     }
     .footer2 {
-        margin-top: 750%;
+        margin-top: 500%;
     }
 
     .fbicon2 {
@@ -365,10 +359,6 @@
 
     .linkedinicon2 {
         margin-top: -240px;
-    }
-
-    .carousel-inner {
-        height: 2000px;
     }
 
     .bottomInfo {
@@ -400,7 +390,7 @@
     }
 
     .carousel-inner {
-        height: 4800px;
+        height: 3500px;
     }
 
     .group {
@@ -424,11 +414,9 @@
     }
 }
 
-@media only screen and (max-width: 520px) { 
-    .footer2 {
-        margin-top: 800%;
-    }
-}
+/* @media only screen and (max-width: 520px) { 
+
+} */
 
 @media only screen and (max-width: 500px) { 
     .card2 {
@@ -436,16 +424,13 @@
     }
 
     .footer2 {
-        margin-top: 800%;
+        margin-top: 550%;
     }
 }
 
-@media only screen and (max-width: 480px) { 
+/* @media only screen and (max-width: 480px) { 
 
-    .footer2 {
-        margin-top: 850%;
-    }
-}
+} */
 
 @media only screen and (max-width: 460px) { 
     #topStuff {
@@ -459,9 +444,6 @@
         width: 300px;
     }
     
-    /* .footer2 {
-        margin-top: 300%;
-    } */
 
     .iconRow2 {
         width: 250px;
@@ -506,7 +488,4 @@
 
 @media only screen and (max-width: 420px) { 
 
-    .footer2 {
-        margin-top: 800%;
-    }
 }

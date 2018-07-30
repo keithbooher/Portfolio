@@ -2,6 +2,7 @@
 $(".portfolio").on("click", function(event) {
     console.log("stuff")
     $(".carousel").carousel(1);
+    $('.card').hide();
 
     var myVar = setInterval(myTimer, 500);
 

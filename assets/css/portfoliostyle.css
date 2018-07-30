@@ -136,7 +136,8 @@ html, body {
 
 #topStuff {
     position: absolute;
-
+    left: 33%;
+    margin-left: 5%;
 }
 
 canvas {

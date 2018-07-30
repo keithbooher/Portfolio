@@ -48,7 +48,7 @@
 
 @media only screen and (max-width: 1130px) { 
 
-    .bottomInfo {
+    .bottomInfo1 {
         height: 400px;
     }
 }
@@ -110,7 +110,7 @@
         height: 400px;
     }  
 
-    .footer {
+    .footer1 {
         margin-top: 100%;
     }
 
@@ -141,7 +141,7 @@
         margin-left: -25px;
     }
 
-    .bottomInfo {
+    .bottomInfo1 {
         height: 380px;
     }
 
@@ -151,7 +151,7 @@
         font-size: 20px;
     }
 
-    /* .bottomInfo {
+    /* .bottomInfo1 {
         height: 400px;
     } */
 }
@@ -169,7 +169,7 @@
     }
 
 
-    .iconimages {
+    .iconimages1 {
         height: 75px;
         width: 75px;
     
@@ -182,7 +182,7 @@
         width: 100%;
     }
     
-    .iconRow {
+    .iconRow1 {
         margin-left: 0px;
     } 
 }
@@ -203,7 +203,7 @@
         margin-left: -45px;
     }
 
-    .bottomInfo {
+    .bottomInfo1 {
         height: 360px;
     }
 
@@ -222,7 +222,7 @@
 }
 
 @media only screen and (max-width: 745px) { 
-    .bottomInfo {
+    .bottomInfo1 {
         height: 380px;
     }
 }
@@ -250,7 +250,7 @@
         height: 150px;
     }
     
-    .iconimages {
+    .iconimages1 {
         height: 65px;
         width: 65px;
     
@@ -263,7 +263,7 @@
         width: 100%;
     }
     
-    .iconRow {
+    .iconRow1 {
         margin-left: 0px;
     } 
 
@@ -289,7 +289,7 @@
         margin-top: 300px;
     }
     
-    .iconimages {
+    .iconimages1 {
         height: 50px;
         width: 50px;
     
@@ -302,7 +302,7 @@
         width: 100%;
     }
     
-    .iconRow {
+    .iconRow1 {
         margin-left: 0px;
     } 
 } */
@@ -357,7 +357,7 @@
         margin-top: 1080px;
         width: 400px;
     }
-    .footer {
+    .footer1 {
         margin-top: 290%;
     }
 
@@ -365,7 +365,7 @@
         height: 2000px;
     }
 
-    .bottomInfo {
+    .bottomInfo1 {
         margin-bottom: 10px;
     }
  
@@ -394,17 +394,17 @@
         margin-top: 0px;
     }
 
-    .iconimages {
+    .iconimages1 {
         height: 40px;
         width: 40px;
     }
 
-    .fbicon {
+    .fbicon1 {
         margin-left: 45px;
         margin-top: 10px;
     }
 
-    .linkedinicon {
+    .linkedinicon1 {
         margin-left: 95px;
         margin-top: -80px;
     }
@@ -453,11 +453,11 @@
         width: 300px;
     }
     
-    .footer {
+    .footer1 {
         margin-top: 300%;
     }
 
-    .iconRow {
+    .iconRow1 {
         width: 250px;
     }
 
@@ -465,33 +465,56 @@
         margin-right: 25px;
     }
 
-    
+    .linkedinicon1 {
+        margin-left: 120px;
+        margin-top: -80px;
+    }
 
+    .fbicon1 {
+        margin-left: 45px;
+        margin-bottom: 10px;
+    }
+
+    .emailicon1 {
+        margin-bottom: -95px;
+        margin-left: -40px;    
+    }
 }
 
-@media only screen and (max-width: 460px) { 
-    #topStuff {
-        position: absolute;
-        left: 5%;
+
+
+@media only screen and (max-width: 420px) { 
+    .footer1 {
+        margin-top: 400%;
     }
 
     .card1 {
-        margin-left: 15%;
-        margin-top: 1200px;
-        width: 300px;
-    }
-    
-    .footer {
-        margin-top: 300%;
+        margin-left: 8%;
+        margin-top: 1300px;
     }
 
-    .iconRow {
+    .bottomInfo1 {
+        height: 375px;
+    }
+}
+
+@media only screen and (max-width: 350px) { 
+    .footer1 {
+        margin-top: 410%;
+    }
+
+    .card1 {
+        margin-left: 7%;
+        margin-top: 1300px;
         width: 250px;
     }
 
-    .cardicons {
-        margin-right: 25px;
+    .bottomInfo1 {
+        height: 390px;
     }
 
+    .iconRow1 {
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
 }
-

@@ -24,7 +24,7 @@ html, body {
 .footer {
     background-color: rgb(140,67,255);
     text-align: center;
-    margin-top: 60%;
+    margin-top: 50%;
 }
 
 #profpic {
@@ -37,21 +37,21 @@ html, body {
 
 .navitem1 {
     position: absolute;
-    right: 95px;
+    right: 150px;
     top: 10px;
 }
 
 .navitem2 {
     position: absolute;
-    right: 20px;
+    right: 78px;
     top: 10px;
 }
 
-/* .navitem3 {
+.navitem3 {
     position: absolute;
     right: 10px;
     top: 10px;
-} */
+}
 
 .hoverer:hover {
     cursor: pointer;
@@ -82,7 +82,7 @@ html, body {
 
 #topStuff {
     position: absolute;
-    left: 30%;
+    left: 33%;
     margin-left: 5%;
 }
 
@@ -109,7 +109,7 @@ canvas {
 .aboutme {
     color: white;
     margin-left: 20%;
-    margin-right: 20%;
+    margin-right: 10%;
     margin-top: 50px;
     text-align: center;    
     font-family: 'Ubuntu', sans-serif;
@@ -127,12 +127,12 @@ h5 {
 }
 
 
-.card {
+.card1 {
     border-style: solid;
     border-width: 4px;
     border-color: rgb(140,67,255);
     border-radius: 25px;
-    margin-left: 60%;
+    margin-left: 65%;
     margin-top: 200px;
     width: 800px;
 }
@@ -166,5 +166,10 @@ h5 {
 
 .educationBullet {
     margin-top: 20px;
+    font-size: 20px;
+}
+
+.enjoy {
+    margin-top: 10px;
     font-size: 20px;
 }

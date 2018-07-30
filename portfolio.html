@@ -13,9 +13,9 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
-        <link rel="stylesheet" type="text/css" href="assets/css/style.css">    
+        <!-- <link rel="stylesheet" type="text/css" href="assets/css/style.css">     -->
         <link rel="stylesheet" type="text/css" href="assets/css/portfoliostyle.css"> 
-        <link rel="stylesheet" type="text/css" href="assets/css/mediaqueries.css"> 
+        <link rel="stylesheet" type="text/css" href="assets/css/portfolioMediaQueries.css"> 
         <!-- <link rel="stylesheet" type="text/css" href="assets/css/reset.css"> -->
 
         <title>Portfolio</title>
@@ -28,7 +28,7 @@
             <div class="container">
                 
                 <!-- nav bar -->
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #8c43ff;">
                     <a class="navbar-brand myname" href="#">Keith Booher</a>
     
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,10 +44,10 @@
                             <!-- link to portolio carousel -->                        
                             <div class="nav-link hoverer portfolio" href="">Portfolio</div>
                         </li>
-                        <!-- <li class="nav-item navitem3"> -->
-                            <!-- link to contact carousel -->                        
-                            <!-- <div class="nav-link hoverer contact" href="">Contact</div>
-                        </li> -->
+                        <li class="nav-item navitem3">
+                                <!-- link to contact carousel                         -->
+                                <div class="nav-link hoverer resume" href="KeithBooherResume.html">Resume</div>
+                            </li>
                         </ul>
                     </div>
                 </nav>
@@ -85,12 +85,13 @@
                                         <div class="purpleSection">
                                             <!-- paragraph section -->
                                             <div class="row aboutme">
-                                                <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">                                                                              
-                                                    <p class="stubbornP1">Highly creative problem-solver with 4 years experience of developing innovative solutions and
-                                                    designs within the STEM academy program. Excels in team environments as well as independently.
-                                                    Strong commitment to seamless interactive experiences.</p>
+                                                    <div class="col-lg-10 col-md-10 col-sm-10 col-xs-10">                                                                              
+                                                        <p class="stubbornP1">I am a web development bootcamp graduate, with a strong front-end 
+                                                            and back-end skill set. On top of having completed multiple projects with quality 
+                                                            aesthetic and pristine functionality, I have become extremely comfortable working on 
+                                                            team projects and utilizing useful technologies like github that enable such projects.</p>
+                                                    </div>
                                                 </div>
-                                            </div>
                                           <!-- Three info cards -->
                                           <div class="row theThree">
                                             <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">                                  
@@ -172,14 +173,14 @@
                                 <div class="row">
                                     <div class="col-10 offset-1  main">
                                         <div class="row picrow">
-                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                            <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8">
                                                 <div class="group" id="triviaGame">
                                                     <img class="pic hoverer" id="triviapic" src="assets/images/triviagame.png">
                                                     <div class="word1 words">Test your space knowledge?</div>
                                                 </div>      
                                                 <div class="githublink"><a href='https://github.com/keithbooher/Psychic-Game'>Click Here to go to this Git Hub Repo</a></div>                          
                                             </div>
-                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                            <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8">
                                                 <div class="group"  id="crystalcollector">
                                                     <img class="pic hoverer" id="crystalpic" src="assets/images/crystalcollector.png">
                                                     <div class="word2 words">Feeling Lucky?</div>
@@ -187,7 +188,7 @@
                                                 <div class="githublink"><a href='https://github.com/keithbooher/unit-4-game'>Click Here to go to this Git Hub Repo</a></div>                                                     
                                             </div>
     
-                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                            <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8">
                                                 <div class="group">
                                                     <img class="pic hoverer" id="giphy" src="assets/images/giphy.png">
                                                     <div class="word3 words">Laugh at some GIFs</div>
@@ -197,7 +198,7 @@
                                         </div>
                     
                                         <div class="row picrow">                                                           
-                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                            <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8">
                                                 <div class="group">
                                                     <img class="pic hoverer" id="avatar" src="assets/images/avatar.png">               
                                                     <div class="word4 words">Control the four elements?</div>
@@ -205,14 +206,14 @@
                                                 <div class="githublink"><a href='https://github.com/keithbooher/attack-based-game'>Click Here to go to this Git Hub Repo</a>    </div>                           
                                             </div>
                                     
-                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                            <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8">
                                                 <div class="group">
                                                     <img class="pic hoverer" id="camping" src="assets/images/campingAppPic.png">
                                                     <div class="word5 words">Lets get some fresh air!</div>                                    
                                                 </div>                                
                                                 <div class="githublink"><a href='https://github.com/iamstu/group-project1'>Click Here to go to this Git Hub Repo</a></div>
                                             </div>
-                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                            <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8">
                                                 <div class="group">
                                                     <img class="pic hoverer" id="liri" src="assets/images/liri.jpg">
                                                     <div class="word5 words">Can Liri help you?</div>                                    
@@ -222,21 +223,21 @@
                                         </div>
     
                                         <div class="row picrow">                                              
-                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                            <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8">
                                                 <div class="group">
                                                     <img class="pic hoverer" id="friends" src="assets/images/friendFinder.png">
                                                     <div class="word5 words">Discover your new best friend!</div>                                    
                                                 </div>                                
                                                 <div class="githublink"><a href='https://github.com/keithbooher/FriendFinder'>Click Here to go to this Git Hub Repo</a></div>
                                             </div>
-                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                            <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8">
                                                 <div class="group">
                                                     <img class="pic hoverer" id="burger" src="assets/images/burger.jpg">
                                                     <div class="word5 words">Order any Burger you could think of!</div>                                    
                                                 </div>                                
                                                 <div class="githublink"><a href='https://github.com/keithbooher/burger'>Click Here to go to this Git Hub Repo</a></div>
                                             </div>    
-                                            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4">
+                                            <div class="col-lg-4 col-md-4 col-sm-8 col-xs-8">
                                                 <div class="group">
                                                     <img class="pic hoverer" id="nap" src="assets/images/nap.png">
                                                     <div class="word5 words">Track your naps!</div>                                    
@@ -247,21 +248,22 @@
                                     </div>                       
                                 </div>
                                 <div class="row">
-                                    <div class="card" >
-                                        <div class="card-body">
-                                          <h5 class="card-title">Connect with Me</h5>
+                                    <div class="card card2" >
+                                        <div class="card-body card-body2">
+                                          <h5 class="card-title card-title2">Connect with Me</h5>
                                           
-                                            <div class="cardicons">
-                                                <div class="row iconRow">                                                              
+                                            <div class="cardicons2">
+                                                <div class="row iconRow2">                                                              
                                                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 makeSmaller">
                                                         <form action="MAILTO:keith.booher@yahoo.com" method="post" enctype="text/plain">
-                                                            <button type="submit" class="btn btn-primary emailBtn"><div href="#" title='Email' class="card-link"><img class="emailicon iconimages" src="https://image.flaticon.com/icons/svg/59/59965.svg"></div></button>
-                                                        </form>                                                    </div>               
+                                                            <button type="button" class="btn btn-link"><div href="#" title='Email' class="card-link"><img class="emailicon2 iconimages2" src="https://image.flaticon.com/icons/svg/59/59965.svg"></div></button>
+                                                        </form>                                                    
+                                                    </div>               
                                                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 makeSmaller">                                                                
-                                                        <a href="https://github.com/keithbooher" title='facebook profile' class="card-link"><img class="fbicon iconimages" src="https://image.freepik.com/free-icon/github-character-silhouette_318-40485.jpg"></a>
+                                                        <a href="https://github.com/keithbooher" title='' class="card-link"><img class="fbicon2 iconimages2" src="https://image.freepik.com/free-icon/github-character-silhouette_318-40485.jpg"></a>
                                                     </div>              
                                                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 makeSmaller">       
-                                                        <a href="https://www.linkedin.com/in/keith-booher-8250b715a/" title='linked in profile'class="card-link"><img class="linkedinicon iconimages" src="https://png.icons8.com/metro/1600/linkedin.png"></a>
+                                                        <a href="https://www.linkedin.com/in/keith-booher-8250b715a/" title='linked in profile'class="card-link"><img class="linkedinicon2 iconimages2" src="https://png.icons8.com/metro/1600/linkedin.png"></a>
                                                     </div>
                                                 </div>                                                    
                                             </div>
@@ -355,7 +357,7 @@
     
     
                              
-            <footer class="footer">
+            <footer class="footer footer2">
                 Copyright@ Keith Booher
             </footer>                
     

@@ -23,18 +23,13 @@ $('.index').click(function() {
     }
 });
 
-// $('.contact').click(function() {
-//     console.log("stuff1")
+$('.resume').click(function() {
 
-//     $(".carousel").carousel(2);
 
-//     var myVar = setInterval(myTimer, 500);
+    window.location.replace('KeithBooherResume.html')
 
-//     function myTimer() {
-//         window.location.replace('contact.html')
-//     }
 
-// });
+});
 
 //prevent carousel front auto sliding
 $('.carousel').carousel({

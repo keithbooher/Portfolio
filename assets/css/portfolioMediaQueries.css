@@ -1,15 +1,13 @@
-
-
 @media only screen and (max-width: 1600px) { 
-    .card1 {
+    .card2 {
         margin-left: 30%;
     }
 
 }
 
 @media only screen and (max-width: 1500px) { 
-    .card1 {
-        margin-left: 10%;
+    .card2 {
+        margin-left: 20%;
     }
 
     canvas {
@@ -23,7 +21,7 @@
 
 
 @media only screen and (max-width: 1400px) { 
-    .card1 {
+    .card2 {
         /* margin-left: 40%; */
     }
 
@@ -31,8 +29,8 @@
 
 @media only screen and (max-width: 1300px) { 
 
-    .card1 {
-        margin-top: 300px;
+    .card2 {
+        margin-top: 200px;
         /* margin-left: 30%;         */
     }
 }
@@ -45,26 +43,32 @@
 }
 
 @media only screen and (max-width: 1150px) { 
-    .card1 {
-        margin-left: -4%;
+    .card2 {
+        margin-left: 14%;
     }
 }
 
 @media only screen and (max-width: 1100px) { 
-    .card1 {
-        margin-left: -10%;
+    .card2 {
+        margin-left: 10%;
     }
 }
 
 @media only screen and (max-width: 1050px) { 
-    .card1 {
-        margin-left: -15%;
+    .card2 {
+        margin-left: 9%;
+        margin-top: 170px;
+
     }
 }
 
 @media only screen and (max-width: 1000px) { 
-    .card1 {
-        margin-left: -18%;
+    .card2 {
+        margin-left: 6%;
+    }
+
+    .footer2 {
+        margin-top:600px;
     }
 }
 
@@ -87,7 +91,7 @@
         top: 110px;
     }
 
-    /* .card1 {
+    /* .card2 {
         margin-left: 5%;
     } */
 }
@@ -97,18 +101,15 @@
         height: 400px;
     }  
 
-    .footer {
-        margin-top: 100%;
-    }
 
-    /* .card1 {
+    /* .card2 {
         margin-left: 0;
     } */
 }
 
 @media only screen and (max-width: 900px) { 
-    .card1 {
-        margin-left: 0;
+    .card2 {
+        margin-left: 15%;
         width: 600px;
     }
 
@@ -132,12 +133,6 @@
         height: 380px;
     }
 
-    
-    .enjoy {
-        margin-top: -20px;
-        font-size: 20px;
-    }
-
     /* .bottomInfo {
         height: 400px;
     } */
@@ -145,18 +140,18 @@
 
 
 @media only screen and (max-width: 875px) { 
-    .card1 {
-        margin-left: 2%;
-        margin-top: 300px;
+    .card2 {
+        margin-left: 13%;
+        margin-top: 150px;
         /* margin-top: 450px; */
     }
     
-    .card-body {
+    .card-body2 {
         height: 175px;
     }
 
 
-    .iconimages {
+    .iconimages2 {
         height: 75px;
         width: 75px;
     
@@ -169,7 +164,7 @@
         width: 100%;
     }
     
-    .iconRow {
+    .iconRow2 {
         margin-left: 0px;
     } 
 }
@@ -185,7 +180,7 @@
     }
 
     .educationBullet {
-        margin-top: -10px;
+        margin-top: 5px;
         font-size: 20px;
         margin-left: -45px;
     }
@@ -200,11 +195,40 @@
     }
 }
 
-@media only screen and (max-width: 760px) { 
-    .enjoy {
-        margin-top: -40px;
-        margin-left: -30px;
-        font-size: 20px;
+@media only screen and (max-width: 767px) { 
+    .group {
+        transform: scale(1.75,1.75);
+        margin-top: 160px;
+        margin-left: 40%;
+    }
+
+    .footer2 {
+        margin-top: 500%;
+    }
+
+    #triviaGame {
+        margin-top: 80px;
+    }
+
+    .words {
+        margin-left: 20%;
+    }
+
+    a {
+        position: absolute;
+        bottom: -90px;
+    }
+
+    .githublink {
+        margin-left: 30%;
+    }
+
+    .fbicon2 {
+        margin-top: -240px;
+    }
+
+    .linkedinicon2 {
+        margin-top: -240px;
     }
 }
 
@@ -215,7 +239,7 @@
 }
 
 @media only screen and (max-width: 720px) { 
-    .card1 {
+    .card2 {
         margin-top: 330px;
     }
 }
@@ -227,20 +251,23 @@
         left: 20%;
     } 
     
-    .card1 {
-        margin-left: 10%;
+    .card2 {
+        margin-left: 17%;
         margin-top: 270px;
         width: 400px;
     }
     
-    .card-body {
+    .card-body2 {
         height: 150px;
     }
     
-    .iconimages {
+    .iconimages2 {
         height: 65px;
         width: 65px;
-    
+    }
+
+    .iconRow2 {
+        margin-left: -40px;
     }
     
     .cardicons {
@@ -250,9 +277,7 @@
         width: 100%;
     }
     
-    .iconRow {
-        margin-left: 0px;
-    } 
+
 
     .educationBullet {
         margin-top: -15px;
@@ -267,36 +292,26 @@
     .subBullet {
         margin-top: -10px;
     }
+
+    .footer2 {
+        margin-top: 600%;
+    }
 }
 
-
-/* @media only screen and (max-width: 700px) { 
-    .card {
-        margin-left: 2%;
-        margin-top: 300px;
+@media only screen and (max-width: 675px) { 
+    .githublink {
+        margin-top: 20%;
     }
-    
-    .iconimages {
-        height: 50px;
-        width: 50px;
-    
-    }
-    
-    .cardicons {
-        position: absolute;
-        bottom: 12px;
-        left: 20px;
-        width: 100%;
-    }
-    
-    .iconRow {
-        margin-left: 0px;
-    } 
-} */
+}
 
 @media only screen and (max-width: 650px) { 
     .theThree {
         margin-top: 30px;
+    }
+
+    .footer2 {
+        margin-top: 650%;
+
     }
 }
 
@@ -322,30 +337,34 @@
     .subBullet {
         margin-top: -20px;
     }
+
+    .footer2 {
+        margin-top: 700%;
+    }
 }
 
 @media only screen and (max-width: 595px) { 
-    .card1 {
+    .card2 {
         margin-top: 320px;
-    }
-
-    .bridging {
-        margin-top: -70px;
-    }
-
-    .bridging {
-        margin-top: -70px;
     }
 }
 
 @media only screen and (max-width: 575px) { 
-    .card1 {
+    .card2 {
         margin-left: 15%;
-        margin-top: 1080px;
+        /* margin-top: 1080px; */
         width: 400px;
     }
-    .footer {
-        margin-top: 290%;
+    .footer2 {
+        margin-top: 750%;
+    }
+
+    .fbicon2 {
+        margin-top: -240px;
+    }
+
+    .linkedinicon2 {
+        margin-top: -240px;
     }
 
     .carousel-inner {
@@ -356,13 +375,12 @@
         margin-bottom: 10px;
     }
  
-    .card-body {
+    .card-body2 {
         margin-left: 20px;
     }
 
     .makeSmaller {
-        margin-left: 40px;   
-        width: 30px; 
+        margin-left: 20px;    
     }
 
     .bootcamp {
@@ -381,50 +399,51 @@
         margin-top: 0px;
     }
 
-    .iconimages {
-        height: 40px;
-        width: 40px;
-    }
-
-    .fbicon {
-        margin-left: 45px;
-        margin-top: 10px;
-    }
-
-    .linkedinicon {
-        margin-left: 95px;
-        margin-top: -80px;
-    }
-
-    .enjoy {
-        margin-top: 20px;
-        margin-left: 5px;
-        font-size: 20px;
-    }
-}
-
-@media only screen and (max-width: 560px) { 
-
-    .card1 {
-        margin-left: 15%;
-        margin-top: 1150px;
-        width: 400px;
-    }
-
     .carousel-inner {
-        height: 2300px;
+        height: 4800px;
+    }
+
+    .group {
+        transform: scale(1.50,1.50);
+        margin-top: 160px;
+        margin-left: 20%;
+    }
+
+    .words {
+        margin-left: 10%;
+    }
+
+    .githublink {
+        margin-left: 10%;
     }
 }
 
 @media only screen and (max-width: 540px) { 
-    .card1 {
-        margin-left: 5%;
+    .card2 {
+        margin-left: 10%;
+    }
+}
+
+@media only screen and (max-width: 520px) { 
+    .footer2 {
+        margin-top: 800%;
     }
 }
 
 @media only screen and (max-width: 500px) { 
-    .card1 {
-        margin-left: 4%;
+    .card2 {
+        margin-top: 280px;
+    }
+
+    .footer2 {
+        margin-top: 800%;
+    }
+}
+
+@media only screen and (max-width: 480px) { 
+
+    .footer2 {
+        margin-top: 850%;
     }
 }
 
@@ -434,51 +453,60 @@
         left: 5%;
     }
 
-    .card1 {
-        margin-left: 15%;
-        margin-top: 1200px;
+    .card2 {
+        margin-left: 18%;
+        margin-top: 120px;
         width: 300px;
     }
     
-    .footer {
+    /* .footer2 {
         margin-top: 300%;
-    }
+    } */
 
-    .iconRow {
+    .iconRow2 {
         width: 250px;
     }
 
-    .cardicons {
-        margin-right: 25px;
+    .iconimages2 {
+        height: 30px;
+        width: 30px;
     }
 
-    
+    .mailImage {
+        height: 20px;
+        width: 20px;
+    }
 
+    .makeSmaller {
+        width: 30px;
+        margin-left: 30px;
+    }
+
+    .fbicon2 {
+        margin-top: -240px;
+        margin-left: 20px;
+    }
+
+    .linkedinicon2 {
+        margin-top: -240px;
+        margin-left: 20px;
+    }
+    
+    .emailicon2 {
+        margin-bottom: 18px;
+    }
 }
 
-@media only screen and (max-width: 460px) { 
-    #topStuff {
-        position: absolute;
-        left: 5%;
-    }
+@media only screen and (max-width: 450px) { 
 
-    .card1 {
-        margin-left: 15%;
-        margin-top: 1200px;
-        width: 300px;
+    .githublink {
+        margin-top: 15%;
     }
-    
-    .footer {
-        margin-top: 300%;
-    }
-
-    .iconRow {
-        width: 250px;
-    }
-
-    .cardicons {
-        margin-right: 25px;
-    }
-
 }
 
+@media only screen and (max-width: 420px) { 
+
+    .footer2 {
+        margin-top: 800%;
+    }
+}

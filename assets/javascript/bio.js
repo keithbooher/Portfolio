@@ -37,17 +37,17 @@ $('.carousel').carousel({
 });
 
 
-document.getElementById("triviaGame").onclick = function () {
-    location.href = "https://keithbooher.github.io/TriviaGame/";
-};
+// document.getElementById("triviaGame").onclick = function () {
+//     location.href = "https://keithbooher.github.io/TriviaGame/";
+// };
 
-document.getElementById("crystalcollector").onclick = function () {
-    location.href = "https://keithbooher.github.io/unit-4-game/";
-};
+// document.getElementById("crystalcollector").onclick = function () {
+//     location.href = "https://keithbooher.github.io/unit-4-game/";
+// };
 
-document.getElementById("giphy").onclick = function () {
-    location.href = "https://keithbooher.github.io/giphy-page/";
-};
+// document.getElementById("giphy").onclick = function () {
+//     location.href = "https://keithbooher.github.io/giphy-page/";
+// };
 
 document.getElementById("avatar").onclick = function () {
     location.href = "https://keithbooher.github.io/attack-based-game/";

@@ -26,13 +26,13 @@ $('.index').click(function() {
     }
 });
 
-$('.resume').click(function() {
+// $('.resume').click(function() {
 
 
-    window.location.replace('KeithBooherResume.html')
+//     window.location.replace('KeithBooherResume.html')
 
 
-});
+// });
 
 //prevent carousel front auto sliding
 $('.carousel').carousel({

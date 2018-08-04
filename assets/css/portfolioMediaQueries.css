@@ -419,6 +419,13 @@
 
 } */
 
+@media only screen and (max-width: 525px) { 
+
+    .footer2 {
+        margin-top: 525%;
+    }
+}
+
 @media only screen and (max-width: 500px) { 
     .card2 {
         margin-top: 280px;
@@ -485,8 +492,14 @@
     .githublink {
         margin-top: 15%;
     }
+
+    .footer2 {
+        margin-top: 600%;
+    }
 }
 
-@media only screen and (max-width: 420px) { 
-
+@media only screen and (max-width: 400px) { 
+    .footer2 {
+        margin-top: 700%;
+    }
 }

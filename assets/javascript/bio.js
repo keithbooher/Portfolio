@@ -72,3 +72,7 @@ document.getElementById("burger").onclick = function () {
     location.href = "https://stormy-retreat-21451.herokuapp.com/";
 };
 
+document.getElementById("nap").onclick = function () {
+    location.href = "https://stormy-retreat-21451.herokuapp.com/";
+};
+

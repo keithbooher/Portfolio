@@ -68,8 +68,8 @@ document.getElementById("friends").onclick = function () {
     location.href = "https://friendliestfinder.herokuapp.com/";
 };
 
-document.getElementById("burger").onclick = function () {
-    location.href = "https://stormy-retreat-21451.herokuapp.com/";
+document.getElementById("scraper").onclick = function () {
+    location.href = "https://afternoon-garden-86498.herokuapp.com/";
 };
 
 document.getElementById("nap").onclick = function () {

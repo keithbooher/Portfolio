@@ -297,6 +297,11 @@
     .githublink {
         margin-top: 20%;
     }
+
+    .footer2 {
+        margin-top: 430%;
+        
+    }
 }
 
 @media only screen and (max-width: 650px) { 
@@ -333,9 +338,9 @@
         margin-top: -20px;
     }
 
-    /* .footer2 {
-        margin-top: 700%;
-    } */
+    .footer2 {
+        margin-top: 480%;
+    }
 }
 
 @media only screen and (max-width: 595px) { 
@@ -409,6 +414,12 @@
     }
 }
 
+@media only screen and (max-width: 550px) { 
+    .footer2 {
+        margin-top: 520%;
+    }
+}
+
 @media only screen and (max-width: 540px) { 
     .card2 {
         margin-left: 10%;
@@ -419,10 +430,10 @@
 
 } */
 
-@media only screen and (max-width: 525px) { 
+@media only screen and (max-width: 530px) { 
 
     .footer2 {
-        margin-top: 525%;
+        margin-top: 550%;
     }
 }
 
@@ -432,7 +443,7 @@
     }
 
     .footer2 {
-        margin-top: 550%;
+        margin-top: 580%;
     }
 }
 

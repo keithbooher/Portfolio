@@ -7,6 +7,10 @@
         margin-top: 20px;
     }
 
+    .footer1 {
+        margin-top: 60%;
+    }
+
 }
 
 @media only screen and (max-width: 1600px) { 
@@ -56,6 +60,10 @@
 @media only screen and (max-width: 1150px) { 
     .card1 {
         margin-left: -4%;
+    }
+
+    .footer1 {
+        margin-top: 80%;
     }
 }
 
@@ -335,6 +343,10 @@
     .subBullet {
         margin-top: -20px;
     }
+
+    .footer1 {
+        margin-top: 120%;
+    }
 }
 
 @media only screen and (max-width: 595px) { 
@@ -446,6 +458,10 @@
         margin-left: 4%;
         margin-top:1250px;
     }
+
+    .footer1 {
+        margin-top: 330%;
+    }
 }
 
 @media only screen and (max-width: 460px) { 
@@ -461,7 +477,7 @@
     }
     
     .footer1 {
-        margin-top: 300%;
+        margin-top: 360%;
     }
 
     .iconRow1 {
@@ -505,9 +521,16 @@
     }
 }
 
-@media only screen and (max-width: 350px) { 
+@media only screen and (max-width: 400px) { 
     .footer1 {
-        margin-top: 410%;
+        margin-top: 430%;
+    }
+
+}
+
+@media only screen and (max-width: 370px) { 
+    .footer1 {
+        margin-top: 450%;
     }
 
     .card1 {
@@ -524,4 +547,12 @@
         margin-bottom: -20px;
         margin-left: -20px;
     }
+}
+
+
+@media only screen and (max-width: 355px) { 
+    .footer1 {
+        margin-top: 480%;
+    }
+
 }

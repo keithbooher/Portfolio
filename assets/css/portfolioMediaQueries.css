@@ -1,5 +1,6 @@
 
 
+
 @media only screen and (max-width: 1500px) { 
     .card2 {
         margin-left: 20%;
@@ -14,12 +15,6 @@
     }
 }
 
-
-/* @media only screen and (max-width: 1400px) { 
-    .card2 {
-    }
-
-} */
 
 @media only screen and (max-width: 1300px) { 
 
@@ -65,39 +60,12 @@
     }
 }
 
-@media only screen and (max-width: 991px) and (min-width: 400px) { 
-    /* .navitem1 {
-        position: absolute;
-        right: 20px;
-        top: 50px;
-    }
-    
-    .navitem2 {
-        position: absolute;
-        right: 20px;
-        top: 80px;
-    }
-    
-    .navitem3 {
-        position: absolute;
-        right: 20px;
-        top: 110px;
-    } */
-
-    /* .card2 {
-        margin-left: 5%;
-    } */
-}
 
 @media only screen and (max-width: 960px) { 
     #myCanvas {
         height: 400px;
     }  
 
-
-    /* .card2 {
-        margin-left: 0;
-    } */
 }
 
 @media only screen and (max-width: 900px) { 

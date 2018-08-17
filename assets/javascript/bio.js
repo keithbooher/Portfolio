@@ -64,8 +64,8 @@ document.getElementById("liri").onclick = function () {
     location.href = "https://github.com/keithbooher/liri-node-app";
 };
 
-document.getElementById("friends").onclick = function () {
-    location.href = "https://friendliestfinder.herokuapp.com/";
+document.getElementById("clicky").onclick = function () {
+    location.href = "https://evening-sea-23536.herokuapp.com/";
 };
 
 document.getElementById("scraper").onclick = function () {

@@ -35,13 +35,6 @@
 }
 
 
-@media only screen and (max-width: 1400px) { 
-    .card1 {
-        /* margin-left: 40%; */
-    }
-
-}
-
 @media only screen and (max-width: 1300px) { 
 
     .card1 {

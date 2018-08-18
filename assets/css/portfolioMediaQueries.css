@@ -175,7 +175,7 @@
         margin-left: 20%;
     }
 
-    a {
+    a.githubLink {
         position: absolute;
         bottom: -90px;
     }

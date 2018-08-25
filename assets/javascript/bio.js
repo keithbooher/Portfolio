@@ -60,8 +60,8 @@ document.getElementById("camping").onclick = function () {
     location.href = "https://iamstu.github.io/group-project1/";
 };
 
-document.getElementById("liri").onclick = function () {
-    location.href = "https://github.com/keithbooher/liri-node-app";
+document.getElementById("reactScrape").onclick = function () {
+    location.href = "https://hidden-harbor-93880.herokuapp.com/";
 };
 
 document.getElementById("clicky").onclick = function () {

@@ -284,29 +284,6 @@
 }
 
 
-/* @media only screen and (max-width: 700px) { 
-    .card {
-        margin-left: 2%;
-        margin-top: 300px;
-    }
-    
-    .iconimages1 {
-        height: 50px;
-        width: 50px;
-    
-    }
-    
-    .cardicons {
-        position: absolute;
-        bottom: 12px;
-        left: 20px;
-        width: 100%;
-    }
-    
-    .iconRow1 {
-        margin-left: 0px;
-    } 
-} */
 
 @media only screen and (max-width: 650px) { 
     .theThree {

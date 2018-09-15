@@ -26,13 +26,7 @@ $('.index').click(function() {
     }
 });
 
-// $('.resume').click(function() {
 
-
-//     window.location.replace('KeithBooherResume.html')
-
-
-// });
 
 //prevent carousel front auto sliding
 $('.carousel').carousel({
@@ -40,39 +34,30 @@ $('.carousel').carousel({
 });
 
 
-// document.getElementById("triviaGame").onclick = function () {
-//     location.href = "https://keithbooher.github.io/TriviaGame/";
-// };
 
-// document.getElementById("crystalcollector").onclick = function () {
-//     location.href = "https://keithbooher.github.io/unit-4-game/";
-// };
 
-// document.getElementById("giphy").onclick = function () {
-//     location.href = "https://keithbooher.github.io/giphy-page/";
-// };
-
-document.getElementById("avatar").onclick = function () {
+document.getElementsByClassName("avatar").onclick = function () {
+    console.log('test')
     location.href = "https://keithbooher.github.io/attack-based-game/";
 };
 
-document.getElementById("camping").onclick = function () {
+document.getElementsByClassName("camping").onclick = function () {
     location.href = "https://iamstu.github.io/group-project1/";
 };
 
-document.getElementById("reactScrape").onclick = function () {
+document.getElementsByClassName("reactScrape").onclick = function () {
     location.href = "https://hidden-harbor-93880.herokuapp.com/";
 };
 
-document.getElementById("clicky").onclick = function () {
+document.getElementsByClassName("clicky").onclick = function () {
     location.href = "https://evening-sea-23536.herokuapp.com/";
 };
 
-document.getElementById("scraper").onclick = function () {
-    location.href = "https://afternoon-garden-86498.herokuapp.com/";
+document.getElementsByClassName("artGutter").onclick = function () {
+    location.href = "https://artgutter.herokuapp.com/";
 };
 
-document.getElementById("nap").onclick = function () {
+document.getElementsByClassName("nap").onclick = function () {
     location.href = "https://stormy-retreat-21451.herokuapp.com/";
 };
 

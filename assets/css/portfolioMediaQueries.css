@@ -15,11 +15,26 @@
     }
 }
 
+@media only screen and (max-width: 1300px) { 
+
+    .column {
+        margin-left: 15%;
+       
+    }
+}
+
 
 @media only screen and (max-width: 1300px) { 
 
     .card2 {
-        margin-top: 200px;
+        margin-top: 150px;
+    }
+}
+
+@media only screen and (max-width: 1270px) { 
+
+    .footer2 {
+        margin-top:700px;
     }
 }
 
@@ -56,15 +71,29 @@
     }
 
     .footer2 {
-        margin-top:600px;
+        margin-top:750px;
     }
 }
 
+@media only screen and (max-width: 992px) { 
+    .footer2 {
+        margin-top:100%;
+    }
+
+}
 
 @media only screen and (max-width: 960px) { 
     #myCanvas {
         height: 400px;
     }  
+
+    .cardStyle {
+        transform: scale(.75, .75);
+    }
+
+    .column {
+        margin-left: 5%;
+    }
 
 }
 
@@ -76,6 +105,10 @@
 
     #topStuff {
         margin-left: -5%;
+    }
+
+    .footer2 {
+        margin-top:125%;
     }
 }
 
@@ -157,16 +190,8 @@
 }
 
 @media only screen and (max-width: 767px) { 
-    .group {
-        transform: scale(1.75,1.75);
-        margin-top: 190px;
-        margin-left: 40%;
-        margin-right: -10%;
-    }
+    
 
-    .footer2 {
-        margin-top: 400%;
-    }
 
     #triviaGame {
         margin-top: 80px;
@@ -176,32 +201,18 @@
         margin-left: 20%;
     }
 
-    a.githubLink {
-        position: absolute;
-        bottom: -90px;
+    .cardStyle {
+        transform: scale(1, 1);
     }
     
-    a.card-link {
-        position: absolute;
-        bottom: -90px;
+
+    .column {
+        margin-left: 15%;
     }
 
-    .githublink {
-        margin-left: 30%;
-    }
-
-    .fbicon2 {
-        margin-top: -240px;
-    }
-
-    .linkedinicon2 {
-        margin-top: -240px;
-    }
-
-    .technologies {
-        position: absolute;
-        bottom: -130px;
-        left: 40%;
+    
+    .footer2 {
+        margin-top:275%;
     }
 
 }
@@ -227,7 +238,7 @@
     
     .card2 {
         margin-left: 17%;
-        margin-top: 270px;
+        margin-top: 100px;
         width: 400px;
     }
     
@@ -267,20 +278,17 @@
         margin-top: -10px;
     }
 
-    /* .footer2 {
-        margin-top: 600%;
-    } */
 }
 
-@media only screen and (max-width: 675px) { 
-    .githublink {
-        margin-top: 20%;
+
+
+
+@media only screen and (max-width: 660px) { 
+    .footer2 {
+        margin-top:300%;
     }
 
-    .footer2 {
-        margin-top: 430%;
-        
-    }
+ 
 }
 
 @media only screen and (max-width: 650px) { 
@@ -288,10 +296,7 @@
         margin-top: 30px;
     }
 
-    .footer2 {
-        margin-top: 450%;
-
-    }
+ 
 }
 
 
@@ -317,35 +322,27 @@
         margin-top: -20px;
     }
 
-    .footer2 {
-        margin-top: 480%;
-    }
 }
 
 @media only screen and (max-width: 595px) { 
     .card2 {
-        margin-top: 320px;
+        margin-top: 100px;
     }
 }
 
 @media only screen and (max-width: 575px) { 
     .card2 {
-        margin-left: 15%;
-        /* margin-top: 1080px; */
+        margin-left: 10%;
         width: 400px;
     }
     .footer2 {
-        margin-top: 500%;
+        margin-top:300%;
     }
 
-    .fbicon2 {
-        margin-top: -240px;
+    .column {
+        margin-left: 10%
     }
-
-    .linkedinicon2 {
-        margin-top: -240px;
-    }
-
+    
     .bottomInfo {
         margin-bottom: 10px;
     }
@@ -378,24 +375,19 @@
         height: 3500px;
     }
 
-    .group {
-        transform: scale(1.50,1.50);
-        margin-top: 160px;
-        margin-left: 20%;
-    }
-
+    
     .words {
         margin-left: 10%;
     }
 
-    .githublink {
-        margin-left: 10%;
+    .cardStyle {
+        transform: scale(1,1)
     }
 }
 
 @media only screen and (max-width: 550px) { 
     .footer2 {
-        margin-top: 520%;
+        margin-top: 310%;
     }
 }
 
@@ -403,32 +395,29 @@
     .card2 {
         margin-left: 10%;
     }
+
+    .footer2 {
+        margin-top: 330%;
+    }
 }
 
-/* @media only screen and (max-width: 520px) { 
-
-} */
 
 @media only screen and (max-width: 530px) { 
 
     .footer2 {
-        margin-top: 550%;
+        margin-top:360%;
     }
 }
 
 @media only screen and (max-width: 500px) { 
-    .card2 {
-        margin-top: 280px;
-    }
 
     .footer2 {
-        margin-top: 580%;
+        margin-top: 400%;
     }
+
 }
 
-/* @media only screen and (max-width: 480px) { 
 
-} */
 
 @media only screen and (max-width: 460px) { 
     #topStuff {
@@ -437,59 +426,34 @@
     }
 
     .card2 {
-        margin-left: 18%;
-        margin-top: 150px;
+        margin-top: 100px;
         width: 300px;
     }
     
 
-    .iconRow2 {
-        width: 250px;
-    }
-
-    .iconimages2 {
-        height: 30px;
-        width: 30px;
-    }
-
-    .mailImage {
-        height: 20px;
-        width: 20px;
-    }
 
     .makeSmaller {
         width: 30px;
         margin-left: 30px;
     }
-
-    .fbicon2 {
-        margin-top: -240px;
-        margin-left: 20px;
-    }
-
-    .linkedinicon2 {
-        margin-top: -240px;
-        margin-left: 20px;
-    }
     
-    .emailicon2 {
-        margin-bottom: 18px;
+}
+
+@media only screen and (max-width: 430px) { 
+    .footer2 {
+        margin-top: 450%;
     }
 }
 
-@media only screen and (max-width: 450px) { 
 
-    .githublink {
-        margin-top: 15%;
-    }
-
+@media only screen and (max-width: 370px) { 
     .footer2 {
-        margin-top: 600%;
+        margin-top: 490%;
     }
 }
 
-@media only screen and (max-width: 400px) { 
+@media only screen and (max-width: 350px) { 
     .footer2 {
-        margin-top: 700%;
+        margin-top: 510%;
     }
 }

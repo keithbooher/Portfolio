@@ -32,6 +32,10 @@
     #topStuff {
         margin-left: 0px;
     }
+
+    .footer1 {
+        margin-top: 80%;
+    }
 }
 
 
@@ -39,7 +43,6 @@
 
     .card1 {
         margin-top: 300px;
-        /* margin-left: 30%;         */
     }
 }
 
@@ -101,9 +104,6 @@
         top: 110px;
     }
 
-    /* .card1 {
-        margin-left: 5%;
-    } */
 }
 
 @media only screen and (max-width: 960px) { 
@@ -115,9 +115,6 @@
         margin-top: 100%;
     }
 
-    /* .card1 {
-        margin-left: 0;
-    } */
 }
 
 @media only screen and (max-width: 900px) { 
@@ -152,9 +149,6 @@
         font-size: 20px;
     }
 
-    /* .bottomInfo1 {
-        height: 400px;
-    } */
 }
 
 
@@ -162,7 +156,6 @@
     .card1 {
         margin-left: 2%;
         margin-top: 300px;
-        /* margin-top: 450px; */
     }
     
     .card-body {
@@ -468,10 +461,10 @@
         margin-bottom: 10px;
     }
 
-    .emailicon1 {
+    /* .emailicon1 {
         margin-bottom: -95px;
         margin-left: -40px;    
-    }
+    } */
 }
 
 

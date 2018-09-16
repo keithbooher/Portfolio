@@ -435,11 +435,15 @@
     .emailicon2 {
         margin-right: 10px;
     }
+
+    .footer2 {
+        margin-top: 430%;
+    }
 }
 
 @media only screen and (max-width: 430px) { 
     .footer2 {
-        margin-top: 450%;
+        margin-top: 460%;
     }
 }
 

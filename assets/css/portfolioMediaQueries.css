@@ -452,6 +452,31 @@
 
 @media only screen and (max-width: 350px) { 
     .footer2 {
-        margin-top: 510%;
+        margin-top: 530%;
+    }
+
+    .card2 {
+        margin-top: 100px;
+    }
+}
+
+@media only screen and (max-width: 325px) { 
+    .footer2 {
+        margin-top: 550%;
+    }
+
+    .card2 {
+        margin-top: 100px;
+    }
+}
+
+
+@media only screen and (max-width: 300px) { 
+    .footer2 {
+        margin-top: 600%;
+    }
+
+    .card2 {
+        margin-top: 100px;
     }
 }

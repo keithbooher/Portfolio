@@ -456,7 +456,7 @@
 
 @media only screen and (max-width: 350px) { 
     .footer2 {
-        margin-top: 530%;
+        margin-top: 560%;
     }
 
     .card2 {
@@ -466,7 +466,7 @@
 
 @media only screen and (max-width: 325px) { 
     .footer2 {
-        margin-top: 575%;
+        margin-top: 600%;
     }
 
     .card2 {
@@ -477,7 +477,7 @@
 
 @media only screen and (max-width: 300px) { 
     .footer2 {
-        margin-top: 640%;
+        margin-top: 650%;
     }
 
 }

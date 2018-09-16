@@ -351,9 +351,6 @@
         margin-left: 20px;
     }
 
-    .makeSmaller {
-        margin-left: 20px;    
-    }
 
     .bootcamp {
         transform: scale(1, 1);
@@ -429,12 +426,15 @@
         margin-top: 100px;
         width: 300px;
     }
-
-    .makeSmaller {
-        width: 30px;
-        margin-left: 30px;
-    }
     
+    .iconimages2 {
+        height: 40px;
+        width: 40px;
+    }
+
+    .emailicon2 {
+        margin-right: 10px;
+    }
 }
 
 @media only screen and (max-width: 430px) { 

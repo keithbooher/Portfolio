@@ -146,7 +146,7 @@ h5 {
     margin-left: 20%;
 }
 
-.iconimages1 {
+.iconimages {
     height: 100px;
     width: 100px;
 
@@ -160,7 +160,7 @@ h5 {
 }
 
 .iconRow {
-    margin-left: 10px;
+    margin-left: 20px;
 } 
 
 
@@ -173,3 +173,25 @@ h5 {
     margin-top: 10px;
     font-size: 20px;
 }
+
+
+.iconRow {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 5%;
+    grid-template-areas:
+    ". em fb li  .";
+    grid-gap: 2rem
+}
+
+.emailicon {
+    grid-area: em
+}
+
+.fbicon1 {
+    grid-area: fb;
+}
+
+.linkedinicon {
+    grid-area: li
+}
+

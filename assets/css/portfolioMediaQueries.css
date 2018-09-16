@@ -480,7 +480,12 @@
         margin-top: 600%;
     }
 
-    .card2 {
-        margin-top: 100px;
+}
+
+
+@media only screen and (max-width: 300px) { 
+    .footer2 {
+        margin-top: 700%;
     }
+
 }

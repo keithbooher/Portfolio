@@ -384,7 +384,7 @@
 
 @media only screen and (max-width: 550px) { 
     .footer2 {
-        margin-top: 310%;
+        margin-top: 350%;
     }
 }
 
@@ -394,7 +394,7 @@
     }
 
     .footer2 {
-        margin-top: 330%;
+        margin-top: 370%;
     }
 }
 
@@ -402,7 +402,7 @@
 @media only screen and (max-width: 530px) { 
 
     .footer2 {
-        margin-top:360%;
+        margin-top:380%;
     }
 }
 

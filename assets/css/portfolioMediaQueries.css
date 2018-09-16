@@ -437,26 +437,26 @@
     }
 
     .footer2 {
-        margin-top: 430%;
+        margin-top: 470%;
     }
 }
 
 @media only screen and (max-width: 430px) { 
     .footer2 {
-        margin-top: 460%;
+        margin-top: 500%;
     }
 }
 
 
 @media only screen and (max-width: 370px) { 
     .footer2 {
-        margin-top: 490%;
+        margin-top: 550%;
     }
 }
 
 @media only screen and (max-width: 350px) { 
     .footer2 {
-        margin-top: 560%;
+        margin-top: 590%;
     }
 
     .card2 {
@@ -466,7 +466,7 @@
 
 @media only screen and (max-width: 325px) { 
     .footer2 {
-        margin-top: 600%;
+        margin-top: 630%;
     }
 
     .card2 {
@@ -477,7 +477,7 @@
 
 @media only screen and (max-width: 300px) { 
     .footer2 {
-        margin-top: 650%;
+        margin-top: 690%;
     }
 
 }
@@ -485,7 +485,7 @@
 
 @media only screen and (max-width: 300px) { 
     .footer2 {
-        margin-top: 730%;
+        margin-top: 750%;
     }
 
 }

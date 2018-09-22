@@ -149,7 +149,7 @@ h5 {
 .iconimages {
     height: 100px;
     width: 100px;
-
+    margin-left: 30px;
 }
 
 .cardicons {
@@ -158,11 +158,6 @@ h5 {
     left: 45px;
     width: 100%;
 }
-
-.iconRow {
-    margin-left: 20px;
-} 
-
 
 .educationBullet {
     margin-top: 20px;
@@ -177,7 +172,7 @@ h5 {
 
 .iconRow {
     display: grid;
-    grid-template-columns: repeat(3, 1fr) 5%;
+    grid-template-columns: 25% 25% 25%;
     grid-template-areas:
     ". em fb li  .";
     grid-gap: 2rem
@@ -195,3 +190,30 @@ h5 {
     grid-area: li
 }
 
+#languages {
+    display: grid;
+    grid-template-columns: -10% 40% 40% 5%;
+    grid-template-rows: 8vh  auto;
+    grid-template-areas:
+    ". header header ."    
+    ". fl sl .";
+    grid-gap: 2rem
+}
+
+.techTitle {
+    grid-area: header
+}
+
+.firstList {
+    grid-area: fl;
+    margin-left: -10px;
+}
+
+.secondList {
+    grid-area: sl;
+    margin-left: -10px;
+}
+
+.techList {
+    margin-bottom: 10px;
+}
